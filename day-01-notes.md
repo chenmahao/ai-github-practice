@@ -15,3 +15,12 @@
 - Commit 是一次版本保存
 - Diff 是一次修改的具体内容
 - Codex 可以帮助我理解和修改项目
+
+
+## Day 2
+
+今天我学会了：
+
+- 用 GitHub Desktop clone 仓库
+- 在 Finder 里找到本地仓库文件
+- 理解 GitHub 网页和本地文件夹的关系
