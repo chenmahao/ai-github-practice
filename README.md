@@ -13,3 +13,8 @@
 ## AI Collaboration Rule
 
 每次让 Codex 修改项目后，我都要先查看 changed files 和 diff，再决定是否 commit。
+
+
+## Branch Practice
+
+这段内容是在 ai-readme-experiment 分支上添加的，用于练习安全地试验修改。
