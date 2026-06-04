@@ -8,3 +8,8 @@
 - 让 AI 修改项目
 - 检查 AI 改动
 - 保存和回退修改
+
+
+## AI Collaboration Rule
+
+每次让 Codex 修改项目后，我都要先查看 changed files 和 diff，再决定是否 commit。
