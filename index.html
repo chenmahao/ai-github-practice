@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Page sections">
+        <a href="#progress">Progress</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#safety">Safety</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-content">
+          <p class="eyebrow">GitHub + Codex practice</p>
+          <h1 id="page-title">AI Learning Hub</h1>
+          <p class="hero-text">
+            我正在学习如何借助 Codex 更好地管理和修改 GitHub 项目，而不是独立从零编程。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="progress" aria-labelledby="progress-title">
+        <div class="section-heading">
+          <p class="eyebrow">Learning progress</p>
+          <h2 id="progress-title">我已经练过的 GitHub 技能</h2>
+        </div>
+        <div class="progress-grid">
+          <article class="card">
+            <h3>基础操作</h3>
+            <p>创建仓库、修改 README、commit、push、pull。</p>
+          </article>
+          <article class="card">
+            <h3>检查改动</h3>
+            <p>查看 changed files、diff、绿色新增和红色删除。</p>
+          </article>
+          <article class="card">
+            <h3>安全协作</h3>
+            <p>使用 branch、Pull Request、merge 和删除旧分支。</p>
+          </article>
+          <article class="card">
+            <h3>风险控制</h3>
+            <p>使用 .gitignore、识别危险文件、理解 revert。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="workflow" aria-labelledby="workflow-title">
+        <div class="section-heading">
+          <p class="eyebrow">Codex workflow</p>
+          <h2 id="workflow-title">我使用 Codex 修改项目的流程</h2>
+        </div>
+        <ol class="steps">
+          <li>确认 main 是最新状态，并且 GitHub Desktop 显示 No local changes。</li>
+          <li>创建一个新的试验分支，让 Codex 先阅读项目并给计划。</li>
+          <li>确认计划后再允许 Codex 修改文件。</li>
+          <li>在 GitHub Desktop 里检查 changed files 和 diff。</li>
+          <li>让 Codex review 这次改动，再决定 commit、discard 或继续修改。</li>
+          <li>通过 Pull Request 合并，并同步回本地 main。</li>
+        </ol>
+      </section>
+
+      <section class="section" id="safety" aria-labelledby="safety-title">
+        <div class="section-heading">
+          <p class="eyebrow">Safety checklist</p>
+          <h2 id="safety-title">提交前我要特别检查</h2>
+        </div>
+        <div class="notice-grid">
+          <div class="notice">
+            <strong>不要提交密钥</strong>
+            <span>.env、API key、密码、个人隐私信息都不应该进入 GitHub。</span>
+          </div>
+          <div class="notice">
+            <strong>不要盲目提交大改动</strong>
+            <span>如果 Codex 改了很多文件，先 review，再决定下一步。</span>
+          </div>
+          <div class="notice">
+            <strong>不要跳过 PR 检查</strong>
+            <span>Files changed 是合并前最后一次看证据的地方。</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
