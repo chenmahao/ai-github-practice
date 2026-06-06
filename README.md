@@ -34,3 +34,14 @@
 8. 创建 Pull Request，并查看 Files changed
 9. 合并 Pull Request 后删除分支
 10. 回到本地 main，并 pull 最新版本
+
+
+## Before Codex Edits Checklist
+
+在让 Codex 修改项目之前，我会先检查：
+
+1. 当前分支不是 main，或者我已经准备好创建试验分支
+2. GitHub Desktop 显示 No local changes
+3. 我已经说明这次要改什么
+4. 我已经要求 Codex 先给计划，不要直接修改
+5. 我知道修改完成后要检查 changed files 和 diff
