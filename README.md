@@ -57,3 +57,13 @@ Codex 修改完成后，我会先检查：
 4. 是否出现了我看不懂的大段改动
 5. 是否误加入了密码、API key、个人信息或临时文件
 6. 是否需要让 Codex 先 review 这次改动，再决定是否 commit
+
+
+## Learning Homepage
+
+这个仓库现在包含一个简单的个人 AI 学习主页：
+
+- `index.html`：网页内容
+- `styles.css`：网页样式
+
+可以在电脑上直接双击 `index.html`，用浏览器查看页面。
