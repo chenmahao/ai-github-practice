@@ -45,3 +45,15 @@
 3. 我已经说明这次要改什么
 4. 我已经要求 Codex 先给计划，不要直接修改
 5. 我知道修改完成后要检查 changed files 和 diff
+
+
+## After Codex Edits Review
+
+Codex 修改完成后，我会先检查：
+
+1. GitHub Desktop 里有哪些 changed files
+2. 每个文件的 diff 是否符合我的目标
+3. 是否只修改了和任务相关的文件
+4. 是否出现了我看不懂的大段改动
+5. 是否误加入了密码、API key、个人信息或临时文件
+6. 是否需要让 Codex 先 review 这次改动，再决定是否 commit
