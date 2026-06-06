@@ -59,6 +59,11 @@ Codex 修改完成后，我会先检查：
 6. 是否需要让 Codex 先 review 这次改动，再决定是否 commit
 
 
+## Live Site
+
+https://chenmahao.github.io/ai-github-practice/
+
+
 ## Learning Homepage
 
 这个仓库现在包含一个简单的个人 AI 学习主页：
